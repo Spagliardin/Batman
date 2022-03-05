@@ -12,17 +12,16 @@ body header div img{ /* la imagen de batman  */
 body  header div {  /* encabezado donde esta la imagen de batman  */
     background-color: #E6E6E6;
 }
+
  body main .BarraSeparadoraBlanca { /* Barra blanca sin contenido debajo del titulo Curriculum Vitae */
     display: block;
     margin: auto;
     background-color: #ffffff;
     height: 150px;  
 }
-body main div { /* todos los bloques con fondo blanco en el main */
-   
-    background-color: #ffffff;
 
-   
+body main div { /* todos los bloques con fondo blanco en el main */
+    background-color: #ffffff;   
 }
 
 body main h1 {/* Titulo Curriculum vitae */
@@ -33,8 +32,6 @@ body main h1 {/* Titulo Curriculum vitae */
     background-color: #C4C4C4;
 }
 
-
-
 body main h2 { /* todos los titulos chicos en barra gris del main */
     display: block;
     margin: auto;
@@ -43,31 +40,23 @@ body main h2 { /* todos los titulos chicos en barra gris del main */
     color:#005677 ;    
 }
 
-
 body main div.contenidoFondoBlanco p span  { /* Contenido dentro de cada seccion */
     color:#080808 ;
-    font-weight:bold
+    font-weight:bold;
+    
  }
 
 
-.footer {
-
-  }
-
 body footer nav{
-
     background-color: #005677;
     text-align: center; /* Pone el NAV en el centro de la pagina*/
     top: 1800px;
-
 }
-
 
 body footer nav ul{
     height: 32px;   
     width: 222px;
     font-size: 23px;
-
     color:#ffffff ; 
     margin: auto;
     display: inline-flex; 
@@ -75,11 +64,11 @@ body footer nav ul{
     list-style: none;
     align-items: center;  /* Pone los 3 items de la lista en una sola linea  */
     line-height: 16px;/*achico la altura de la linea para que se centren los 3 items en la linea */
-
+   
     
-  }
+}
 
   body footer nav ul li p {
-
-    margin-right: 8px;
+    margin-right: 8px; /*separa el lado derecho del  0800 batman a 8px   */
+    font-weight: bold;
   }
