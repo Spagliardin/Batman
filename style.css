@@ -1,6 +1,6 @@
 
-body { /* fondo en el body de todo el html  */
- height: 1024px;
+body { /*  body de todo el html  */
+ height: 1200px;
     font-family: 'Times New Roman', Times, serif;
 }
 
@@ -43,69 +43,43 @@ body main h2 { /* todos los titulos chicos en barra gris del main */
     color:#005677 ;    
 }
 
-/*   body main div.contenidoFondoBlanco { /* Contenido dentro de cada seccion */
-
-/*      background-color: #ffffff;
- 
-        margin: auto;
-        height:auto;
-
- }
- */
 
 body main div.contenidoFondoBlanco p span  { /* Contenido dentro de cada seccion */
-    color:#0c0c0c ;
-    text-transform: capitalize;
+    color:#080808 ;
+    font-weight:bold
  }
 
 
- /* Arranca el Footer */
-
-/* body footer nav .contactos {
-    display: block;
-    margin: auto;
-
-    
-    float: initial;    
-    background-color: #005677;  
-    color:#ffffff ; 
-    text-align: center;
-   
-
-   
-}*/
 .footer {
 
-    text-align: center;
-    padding: 10px;
   }
 
 body footer nav{
 
-
     background-color: #005677;
+    text-align: center; /* Pone el NAV en el centro de la pagina*/
+    top: 1800px;
 
 }
 
 
 body footer nav ul{
-    height: 37px;   
-    width: 250px;
-    font-size: 20px;
+    height: 32px;   
+    width: 222px;
+    font-size: 23px;
+
     color:#ffffff ; 
     margin: auto;
-    display: inline-flex;
-    justify-content: space-between;
+    display: inline-flex; 
+    justify-content: space-between;/*saca los bullets a la lista */
     list-style: none;
-    text-align: center;
+    align-items: center;  /* Pone los 3 items de la lista en una sola linea  */
+    line-height: 16px;/*achico la altura de la linea para que se centren los 3 items en la linea */
+
     
   }
 
-.listadoContactos {
+  body footer nav ul li p {
 
-    justify-content: space-between;
-    float: center;
-align-items: center;
-
-
-}
+    margin-right: 8px;
+  }
