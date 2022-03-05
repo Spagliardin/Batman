@@ -1,0 +1,111 @@
+
+body { /* fondo en el body de todo el html  */
+ height: 1024px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body header div img{ /* la imagen de batman  */
+    display: block;
+    margin: auto;    
+}
+
+body  header div {  /* encabezado donde esta la imagen de batman  */
+    background-color: #E6E6E6;
+}
+ body main .BarraSeparadoraBlanca { /* Barra blanca sin contenido debajo del titulo Curriculum Vitae */
+    display: block;
+    margin: auto;
+    background-color: #ffffff;
+    height: 150px;  
+}
+body main div { /* todos los bloques con fondo blanco en el main */
+   
+    background-color: #ffffff;
+
+   
+}
+
+body main h1 {/* Titulo Curriculum vitae */
+    color:#005677 ;
+    display: block;
+    margin: auto;
+    text-align: center;
+    background-color: #C4C4C4;
+}
+
+
+
+body main h2 { /* todos los titulos chicos en barra gris del main */
+    display: block;
+    margin: auto;
+    background-color: #C4C4C4;
+    height: 30px;
+    color:#005677 ;    
+}
+
+/*   body main div.contenidoFondoBlanco { /* Contenido dentro de cada seccion */
+
+/*      background-color: #ffffff;
+ 
+        margin: auto;
+        height:auto;
+
+ }
+ */
+
+body main div.contenidoFondoBlanco p span  { /* Contenido dentro de cada seccion */
+    color:#0c0c0c ;
+    text-transform: capitalize;
+ }
+
+
+ /* Arranca el Footer */
+
+/* body footer nav .contactos {
+    display: block;
+    margin: auto;
+
+    
+    float: initial;    
+    background-color: #005677;  
+    color:#ffffff ; 
+    text-align: center;
+   
+
+   
+}*/
+.footer {
+
+    text-align: center;
+    padding: 10px;
+  }
+
+body footer nav{
+
+
+    background-color: #005677;
+
+}
+
+
+body footer nav ul{
+    height: 37px;   
+    width: 250px;
+    font-size: 20px;
+    color:#ffffff ; 
+    margin: auto;
+    display: inline-flex;
+    justify-content: space-between;
+    list-style: none;
+    text-align: center;
+    
+  }
+
+.listadoContactos {
+
+    justify-content: space-between;
+    float: center;
+align-items: center;
+
+
+}
